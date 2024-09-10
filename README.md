@@ -2,6 +2,16 @@
 
 This project demonstrates how to use Semantic Kernel and Kernel Memory in a notebook environment.
 
+It set's up a notebook environment with the following components:
+
+- Kernel Memory - configued with OpenAI, pgvector. 
+    - See [setup-kernel.ipynb](./src/setup-kernel.ipynb) for the setup code.
+    - See [appsettings.json](./src/appsettings.json) for the configuration.
+- Infrastructure - `Postgres/pgvector`, `Aspire Dashboard`
+    - See [setup-infrastructure.ipynb](./src/setup-infrastructure.ipynb) for the setup code.
+
+![banner](./assets/banner.png)
+
 See [playground.ipynb](./src/playground.ipynb) to get started.
 
 ## References
@@ -10,7 +20,6 @@ See [playground.ipynb](./src/playground.ipynb) to get started.
 - [Kernel Memory](https://github.com/microsoft/kernel-memory)
 - [.NET Interactive](https://github.com/dotnet/interactive)
 
+## Known Issues
 
-## TODO: 
-
-Add Aspire Dashboard
+* Traces are not being exported to OTLP exporter from notebooks
