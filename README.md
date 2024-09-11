@@ -4,7 +4,7 @@ This project demonstrates how to use Semantic Kernel and Kernel Memory in a note
 
 See [playground.ipynb](./src/playground.ipynb) to get started.
 
-<video src="./assets/demo1.mp4" controls="controls"></video>
+<video src="https://github.com/user-attachments/assets/e57c3055-532e-4ad6-a272-83cabbba600c" controls="controls"></video>
 
 It set's up a notebook environment with the following components:
 
