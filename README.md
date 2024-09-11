@@ -2,6 +2,10 @@
 
 This project demonstrates how to use Semantic Kernel and Kernel Memory in a notebook environment.
 
+See [playground.ipynb](./src/playground.ipynb) to get started.
+
+<video src="./assets/demo1.mp4" controls="controls"></video>
+
 It set's up a notebook environment with the following components:
 
 - Kernel Memory - configued with OpenAI, pgvector. 
@@ -10,9 +14,6 @@ It set's up a notebook environment with the following components:
 - Infrastructure - `Postgres/pgvector`, `Aspire Dashboard`
     - See [setup-infrastructure.ipynb](./src/setup-infrastructure.ipynb) for the setup code.
 
-![banner](./assets/banner.png)
-
-See [playground.ipynb](./src/playground.ipynb) to get started.
 
 ## References
 
